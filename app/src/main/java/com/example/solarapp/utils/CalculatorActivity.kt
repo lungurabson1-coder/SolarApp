@@ -1,22 +1,16 @@
-package com.example.solarapp
+package com.example.solarapp.utils
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
-import androidx.compose.material3.*
-import androidx.compose.runtime.Composable
+import com.example.solarapp.AppNavigation
 
 class CalculatorActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
         setContent {
-            SolarApp()
+            AppNavigation()
         }
     }
-}
-
-@Composable
-fun SolarApp() {
-    HomeScreen()
 }
