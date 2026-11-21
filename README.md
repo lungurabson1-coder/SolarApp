@@ -3,7 +3,6 @@ SOLARAPP PROJECT
 |Rabson Lungu     | 2410269            |
 |-----------------|--------------------|
 
-For the README.md section "THE PROBLEM", you can write:
 
 THE PROBLEM
 
@@ -39,3 +38,34 @@ Once the app launches, log in and access features such as the Solar Calculator a
 Test the application's functionality on either the emulator or a physical Android device.
 
 This section is suitable for inclusion directly in your README.md under "HOW TO BUILD AND RUN".
+
+
+Screens and What They Do
+1. Login Screen
+Allows users to enter their email and password.
+Validates login credentials.
+Navigates users to the Home Screen after successful login.
+
+2. Home Screen
+Serves as the main navigation hub of the app.
+Provides access to all major features of SolarApp.
+Allows users to choose between the Solar Calculator and Charging Stations functions.
+
+3. Solar Calculator Screen
+Accepts device power requirements as input.
+Calculates the solar energy needed to charge the device.
+Displays the estimated charging requirements and results.
+Includes a back button to return to the Home Screen.
+
+4. Find Charging Stations Screen
+Displays available charging stations.
+Shows station names and locations.
+Helps users identify nearby charging options.
+Includes a back button to return to the Home Screen.
+
+Summary of Features
+User authentication through email and password.
+Solar charging requirement calculations.
+Charging station information lookup.
+Simple navigation between screens.
+User-friendly interface designed for rural communities.
